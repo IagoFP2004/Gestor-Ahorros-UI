@@ -5,12 +5,12 @@ export function AgregadoRapido() {
         className="border rounded p-4 w-100"
         style={{ maxWidth: 906 }} // ≈ ancho de las 3 cards de Stats
       >
-        <p className="mb-3">
+        <h4 className="mb-3">
           <i className="bi bi-cash text-primary ps-2 pe-2"></i>
           Agregar Gastos Rápidos
-        </p>
+        </h4>
 
-        <div className="row g-2 align-items-center mt-2">
+        <div className="row g-2 align-items-center mt-5">
           {/* Descripción */}
           <div className="col-12 col-md-5">
             <input
