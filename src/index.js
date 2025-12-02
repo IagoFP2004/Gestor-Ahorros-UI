@@ -4,6 +4,7 @@ import { Stats } from './components/Stats';
 import { AgregadoRapido } from './components/AgregadoRapido';
 import { Categorias } from './components/Categorias';
 import { Resumen } from './components/Resumen';
+import { ResumenMes } from './components/ResumenMes';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +16,7 @@ root.render(
             <AgregadoRapido />
             <Categorias />
             <Resumen />
+            <ResumenMes />
         </div>
     </StrictMode>
 )

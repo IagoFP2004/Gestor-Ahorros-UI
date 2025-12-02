@@ -17,7 +17,7 @@ export function Resumen() {
                         <p>Disponible:</p>
                         <p className="text-success">$0</p>
                     </div>
-                    <button className="w-100 rounded bg-dark text-white p-1">Guardar Mes Actual</button>
+                    <button className="w-100 rounded bg-dark text-white p-1"><i class="bi bi-floppy pe-2"></i>Guardar Mes Actual</button>
                 </div>
             </div>
         </>
