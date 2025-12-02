@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { Stats } from './components/Stats';
 import { AgregadoRapido } from './components/AgregadoRapido';
 import { Categorias } from './components/Categorias';
+import { Resumen } from './components/Resumen';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +14,7 @@ root.render(
             <Stats />
             <AgregadoRapido />
             <Categorias />
+            <Resumen />
         </div>
     </StrictMode>
 )
