@@ -2,6 +2,7 @@
   "name": "gestorahorrosui",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://juego-impostor-api-node-r70onvie1-iagofp2004s-projects.vercel.app",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
