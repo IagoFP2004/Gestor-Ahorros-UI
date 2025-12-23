@@ -21,6 +21,7 @@ export function Prueba() {
       } finally {
         setLoading(false);
       }
+      
     };
 
     fetchWords();
